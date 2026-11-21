@@ -292,20 +292,20 @@ def headline_block(x, y, headline, deck, font, lh, max_lines, deck_lh=14):
 HEROES = [
     (1, "KYIV, UKRAINE", "WAR", "Europe", "CONFIRMED",
      "Russia fires wave|of missiles at Kyiv",
-     "Eight killed, 28 hurt; three Dnipro bridges hit. (Reuters)",
+     "Eight killed, 28 hurt. Three Dnipro bridges hit. (Reuters)",
      "KYIV - BRIDGES HIT, 8 KILLED"),
     (2, "ODISHA, INDIA", "CYCLONE", "Asia", "CONFIRMED",
-     "Cyclone Akvan makes|landfall in eastern India",
+     "Cyclone Akvan makes|landfall in India",
      "Storm crosses near Gopalpur; 300,000 evacuated. (IMD, NDTV)",
-     "GOPALPUR - LANDFALL 07:30 IST"),
+     "GOPALPUR - LANDFALL 07:30-08:30 IST"),
     (3, "ANTALYA, TURKIYE", "CLIMATE", "Europe", "CONFIRMED",
      "COP31 reaches final|day with no deal|in sight",
      "Draft drops fossil-fuel phase-out; talks may overrun. (AFP)",
      "ANTALYA - FINAL DAY"),
     (4, "TOKYO", "MARKETS", "Asia", "CONFIRMED",
-     "AI sell-off sinks|Asian shares; Nikkei|dives 4.8%",
+     "AI sell-off sinks|Asian shares; Nikkei|dives 5.06%",
      "S&P 500 falls 2%, a fifth straight loss; SoftBank -16%. (CNBC)",
-     "TOKYO - NIKKEI -4.8%"),
+     "TOKYO - NIKKEI -5.06%"),
 ]
 
 GRID = [
@@ -314,9 +314,9 @@ GRID = [
      "Youth mobility, food, carbon. (BBC)",
      "BRUSSELS - RESET TALKS"),
     (6, "MERCURY", "SPACE", "Space", "CONFIRMED",
-     "BepiColombo reaches|Mercury after 8 years",
-     "Second Mercury orbiter. (Guardian)",
-     "MERCURY - ARRIVED"),
+     "BepiColombo nears|Mercury after eight years",
+     "Orbit insertion due 21 Nov. (Guardian)",
+     "MERCURY - ORBIT 21 NOV"),
     (7, "WORLDWIDE", "GAMES", "Global", "ESTIMATE",
      "GTA VI sales top $2.3bn,|a launch record",
      "Biggest entertainment launch. (BBC)",
@@ -326,7 +326,7 @@ GRID = [
      "Now to the House for a vote. (CNBC)",
      "WASHINGTON - 62-33"),
     (9, "SANTA CLARA", "TECH", "Americas", "CONFIRMED",
-     "California opens probe|into Nvidia over China chips",
+     "California probes|Nvidia over China chips",
      "Interim chief Colette Kress. (BBC)",
      "SANTA CLARA - INQUIRY"),
     (10, "SAN SALVADOR", "POLITICS", "Americas", "CONFIRMED",
@@ -392,19 +392,19 @@ BRIEFS = [
 STATS = [
     ("300,000+", "evacuated ahead of Akvan"),
     ("8", "killed as Kyiv bridges hit"),
-    ("-4.8%", "Nikkei, Friday's close"),
+    ("-5.06%", "Nikkei, Friday's close"),
     ("62-33", "Senate passes energy bill"),
     ("$2.3bn", "GTA VI sales, a record"),
     ("2.2%", "Japan core inflation"),
 ]
 
 TIMELINE = [
-    ("02:00 UTC", "Akvan crosses the coast near Gopalpur"),
+    ("02:00-03:00 UTC", "Akvan crosses the coast near Gopalpur"),
     ("OVERNIGHT", "Russian missiles hit Kyiv's bridges"),
     ("MORNING", "COP31 enters its final day in Antalya"),
-    ("06:00 UTC", "Nikkei closes down 4.8% in Tokyo"),
+    ("06:00 UTC", "Nikkei closes down 5.06% in Tokyo"),
     ("MIDDAY", "UK and EU meet in Brussels on reset"),
-    ("EVENING", "US Senate passes energy bill 62-33"),
+    ("03:02 UTC", "US Senate passes energy bill 62-33"),
 ]
 
 
@@ -494,7 +494,7 @@ def scene_selloff(x, y, w, h):
              (220, 60, 60))
     for p in pts:
         disc(p[0], p[1], 2, (255, 120, 90))
-    text("sansb10", "NIKKEI -4.8%", x + 10, y + 20, (255, 255, 255))
+    text("sansb10", "NIKKEI -5.06%", x + 10, y + 20, (255, 255, 255))
     text("sansb10", "KOSPI -5.4%", x + 10, y + 40, (255, 120, 90))
     text("sansb10", "S&P -2.0%", x + 10, y + 60, (255, 120, 90))
 
