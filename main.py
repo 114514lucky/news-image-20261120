@@ -293,7 +293,7 @@ HEROES = [
     (1, "KYIV, UKRAINE", "WAR", "Europe", "CONFIRMED",
      "Russia fires wave|of missiles at Kyiv",
      "Eight killed, 28 hurt. Three Dnipro bridges hit. (Reuters)",
-     "KYIV - BRIDGES HIT, 8 KILLED"),
+     "KYIV - THREE BRIDGES HIT"),
     (2, "ODISHA, INDIA", "CYCLONE", "Asia", "CONFIRMED",
      "Cyclone Akvan makes|landfall in India",
      "Storm crosses near Gopalpur; 300,000 evacuated. (IMD, NDTV)",
@@ -391,7 +391,7 @@ BRIEFS = [
 
 STATS = [
     ("300,000+", "evacuated ahead of Akvan"),
-    ("8", "killed as Kyiv bridges hit"),
+    ("8", "killed across Ukraine"),
     ("-5.06%", "Nikkei, Friday's close"),
     ("62-33", "Senate passes energy bill"),
     ("$2.3bn", "GTA VI sales, a record"),
@@ -402,7 +402,7 @@ TIMELINE = [
     ("02:00-03:00 UTC", "Akvan crosses the coast near Gopalpur"),
     ("OVERNIGHT", "Russian missiles hit Kyiv's bridges"),
     ("MORNING", "COP31 enters its final day in Antalya"),
-    ("06:00 UTC", "Nikkei closes down 5.06% in Tokyo"),
+    ("06:30 UTC", "Nikkei closes down 5.06% in Tokyo"),
     ("MIDDAY", "UK and EU meet in Brussels on reset"),
     ("03:02 UTC", "US Senate passes energy bill 62-33"),
 ]
